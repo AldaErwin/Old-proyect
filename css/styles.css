@@ -6,23 +6,20 @@
 }
 
 .body {
-    position: relative;
     height: 100vh;
     background-image: url(../images/60f05965972a4.png);
     background-repeat: no-repeat;
     background-size: cover;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
+    
 }
 .Logo {
-    position: relative;
+    
     max-width: 120px;
     margin: 30px 30px 30px 45px;
 }
 
 header {
-    position: absolute;
+    
     display: flex;
     backdrop-filter: blur(4px);
     top: 0;
@@ -75,8 +72,7 @@ header {
 }
 
 .footer {
-    position: absolute;
-    bottom: 20px;
+    
     width: 100%;
     backdrop-filter: blur(4px);
 }
@@ -90,7 +86,7 @@ header {
 .media-y-h {
     position: relative;
     display: flex;
-    color: #fff;
+    color: #000;
     justify-content: space-between;
     align-items: center;
     margin-left: 10px;
