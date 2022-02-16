@@ -44,14 +44,13 @@ header {
             font-weight: bolder;
             font-family: 'Titillium Web';
             }
-
-.main {
+/* History.html */
+.main-H {
     display: grid;
     grid-template-columns: .5fr 4fr .5fr;
     grid-template-rows: 1fr;
 }
-.article_history 
-{
+.article_history {   
     background-color: rgba(255, 255, 255, 0.1);
     backdrop-filter: blur(20px);
     border: solid 1px rgba(255, 255, 255, 0.5);
@@ -62,6 +61,7 @@ header {
     justify-content: center;
     align-content: center;
     margin: 10px;
+    border-radius: 0px 0px 40px 40px;
 }
 .div-caja1 {
     display: flex;
@@ -72,7 +72,7 @@ header {
 }
 .div-caja1 h2 {
     text-align: center;
-    margin-top: 5px;
+    margin-top: 8px;
     margin-bottom: 10px;
 }
 .div-caja1 img{
@@ -85,9 +85,14 @@ header {
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    border-bottom: 2px solid #333;
+    border-radius: 0px 0px 40px 40px;
 }
     .div-p p {
-        margin-right: 10px;
+        margin: 10px;
+    }
+    .div-p p:first-child{
+        border-right: 2px solid #333;
     }
     .footer {
         width: 100%;
