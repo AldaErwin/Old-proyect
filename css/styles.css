@@ -50,15 +50,13 @@ header {
     padding-right: 45px;
 }
 
-    .navigation ul li a {
+    .listas {
         color: #fff;
-        text-decoration: none;
-        margin-left: 45px;
         font-weight: bolder;
         font-family: 'Titillium Web';
         transition: all 0.5s;
         }
-        .navigation ul li a:hover {
+        .listas:hover {
             letter-spacing: 1.5px;
         }
             
