@@ -14,12 +14,12 @@
 .Logo {
     
     max-width: 120px;
-    margin: 30px 30px 30px 45px;
+    margin: 0px 30px 0px 45px;
 }
 
 header {
     
-    display: flex;
+    display: sticky;
     backdrop-filter: blur(4px);
     top: 0;
     left: 0;
@@ -30,8 +30,20 @@ header {
     align-items: center;
     max-height: 100px;
     border-bottom: #fff;
+    text-align: center;
     
 } 
+.h1-f1 {
+    background-color: transparent;
+    align-self: center;
+    text-align: center;
+    font-family: 'Titillium Web';
+    font-size: 30px;
+}
+.n1{
+    color: #ff0022;
+    font-size: 30px;
+}
 .navigation ul {
     display: flex;
     list-style: none;
@@ -54,19 +66,20 @@ header {
 /* Index.html */
 
 .section-main{
-    width: 100%;
-    height: 100%;
-    display: flex;
-    margin: 335px 0 ;
-    backdrop-filter: blur(2px);
+    width: 100vw;
+    height: 85vh;
+    display: flex;   
     justify-content: flex-end; 
     padding-right: 150px;
+    align-items: center;
+    z-index: 1;
 }
 .section-main h2 {
     font-family: sans-serif;
     font-size: 75px;
     color: #ff0022;
     text-shadow: 3px 2px 4px rgba(0,0,0, 1);
+    backdrop-filter: blur(2px);
 }
 .section-main h2 span {
     font-family: sans-serif;
@@ -302,6 +315,8 @@ H1 {
     margin-top: 10px;
     width: 100%;
     backdrop-filter: blur(4px);
+    position: sticky;
+    bottom: 0;
 }
 
 .media-solo {
@@ -342,7 +357,12 @@ H1 {
         padding: 0;
         margin: 0;
     }
-    
+    .section-main h2 {
+        font-size: 50px;
+    }
+    .section-main h2 span {
+        font-size: 30px;
+    }
     .media-y-h {
         flex-direction: column;
         flex-wrap: wrap;
@@ -353,7 +373,6 @@ H1 {
 
     .Logo {
         max-width: 120px;
-        margin: 10px 10px 10px 15px;
     }
 }
 
@@ -368,12 +387,6 @@ H1 {
     header {
         justify-content: center;
     }
-    .navigation ul {
-        padding: 0;
-        margin: 0;
-        flex-wrap: wrap;
-    }
-    
     .media-y-h {
         flex-direction: column;
         flex-wrap: wrap;
@@ -384,13 +397,12 @@ H1 {
 
     .Logo {
         max-width: 100px;
-        margin: 5px;
+        margin: 0;
     }
     .section-main{
         text-align: center;
         justify-content: center;
         padding: 0;
-        margin: 35.5vh 0;
     }
     .section-main h2 {
         font-size: 50px;
