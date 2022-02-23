@@ -50,23 +50,45 @@
                 </div>
               </nav>
         </header>
-        <main> 
-            <h1>CONTACT</h1>
-            <h2>If you have some advice or doubt please contact us</h2>
-            <form action="/formulario" method="POST">
-                    <label for="Nombre">Nombre</label>
-                    <input type="text" id="Nombre" placeholder="Nombre">  
-                <br>
-                    <label for="Email">Email</label>
-                    <input type="email" id="Email" placeholder="Email">
-                <br>
-                    <label for="Comentario">Comentario</label>
-                    <textarea id="Comentario" placeholder="Ingrese Comentario" name="Comentario"></textarea>
-                <br>
-                    <input type="submit"/>
-            </form>
-            <h2>Here is our location</h2>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d22369.743097001232!2d-73.57075504338437!3d45.50569230420182!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cc91a54035c0dcb%3A0xbb39ebddff5d483!2sMontreal%20City%20Hall!5e0!3m2!1ses-419!2sar!4v1642366285524!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        <div class="h1-contact"> 
+          <h1 class="h1-c">CONTACT</h1>
+        </div>
+        <main class="contactos">
+          <div class="formulario">
+              <h2>If you have some advice or doubt please contact us</h2>
+                <form action="/formulario" method="POST">
+
+                  <div class="input-C">
+                    <label for="Nombre" class="label">Name</label>
+                    <input type="text" id="Nombre" required>
+                  </div>
+
+                  <div class="input-C">
+                    <label for="email"class="label">Email</label>
+                    <input type="email" id="email" required>
+                  </div>
+
+                  <div class="input-C">
+                    <label for="message" class="label" >Your message</label>
+                    <textarea name="message" id="message" rows="10"></textarea>
+                  </div>
+
+                  <button type="submit" class="boton">SUBMIT</button>
+
+                </form>
+                  <div class="sponsor1">
+                      <h2>SPONSOR:</h2>
+                      <img class="sponsor" src="../images/facebook.png" alt="">
+                      <img class="sponsor" src="../images/facebook.png" alt="">
+                      <img class="sponsor" src="../images/facebook.png" alt="">
+                      <img class="sponsor" src="../images/facebook.png" alt="">
+                      <img class="sponsor" src="../images/facebook.png" alt="">
+                  </div>
+          </div>
+          <div class="locacion-1">
+              <h2>Here is our location</h2>
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d22369.743097001232!2d-73.57075504338437!3d45.50569230420182!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cc91a54035c0dcb%3A0xbb39ebddff5d483!2sMontreal%20City%20Hall!5e0!3m2!1ses-419!2sar!4v1642366285524!5m2!1ses-419!2sar"style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+          </div>
         </main>
         <footer class="footer">
             <section class="footer-comp">

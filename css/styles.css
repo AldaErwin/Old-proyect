@@ -288,6 +288,8 @@ H1 {
     backdrop-filter: blur(20px);
     border-radius: 0px 0px 40px 40px;
     z-index: 1;
+    margin-top: 49px;
+    margin-bottom: 49px;
 }
 .teams {
     display: grid;
@@ -333,6 +335,109 @@ H1 {
     margin: 10px auto;
     padding: 5px;
 
+}
+/* Contact.html */
+.h1-contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.h1-c {
+    margin: 14px 0 15px 0;
+}
+.contactos {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 100%;
+    height: 80vh;
+    backdrop-filter: blur(15px);
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+}
+.formulario {
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    max-width: 900px;
+    margin: 30px;
+}
+.formulario h2{
+    color: #000;
+    font-weight: 500;
+}
+
+.sponsor1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-top: 1px solid #333;
+    padding-top: 2px;
+    margin-top: 4px;
+}
+.sponsor1 h2 {
+    justify-self: flex-start;
+    margin-right: 100px;
+    color: #000;
+}
+.sponsor {
+    justify-self: flex-end;
+    margin: 5px 10px 0px 10px;
+    background-color: transparent;
+}
+.sponsor1 img {
+    max-width: 90px;
+}
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    outline: 0;
+    border: 1px solid #000;
+    background: transparent;
+    font-size: 15px;
+    font-weight: 400;
+    color: #000;
+}
+.input-C {
+    margin-bottom: 20px;
+    color: #fff;
+}
+.input-C .label {
+    padding: 10px;
+    color: #fff;
+    cursor: text;
+    position: relative;
+    left: 0;
+    top: 0;
+    font-weight: 600;
+
+}
+.boton {
+    padding: 5px;
+    color: #fff;
+    outline: none;
+    background-color: rgb(148, 147, 147);
+    width: 100%;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+.locacion-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+}
+.locacion-1 iframe {
+    width: 90%;
+    height: 100%;
+    padding: 10px;
+}
+.locacion-1 h2 {
+    color: #000;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 5px;
 }
 /* Footer */
 .footer {
