@@ -1,0 +1,23 @@
+@import '../base/variables';
+
+.header-1 {
+    
+    display: sticky;
+    backdrop-filter: blur(4px);
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-attachment: fixed;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, .7);
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: $border;
+    text-align: center;
+    
+} 
+
+@media screen and (max-width: 800px) and (min-width:600px){
+    header {
+        justify-content: space-around;
+    }
+}

@@ -1,0 +1,14 @@
+
+.body {
+    background-image: url(../images/60f05965972a4.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+@media screen and (max-width: 800px) and (min-width:600px){
+    .body {
+        justify-content: center;
+        align-items: center;
+    }
+}
